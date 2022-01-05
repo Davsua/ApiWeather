@@ -1,0 +1,94 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: url('./Img/cloudy.gif') ;
+  background-size: cover;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.loader {
+  border: 16px solid #f3f3f3; /* Light grey */
+  border-top: 16px solid #3498db; /* Blue */
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  animation: spin 2s linear infinite;
+  margin: 150px auto;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.container{
+  margin: 70px auto;
+  align-items: center;
+  text-align: center;
+}
+
+.Card-weather{
+  width: 300px;
+  height: auto;
+  border: 3px solid grey;
+  align-items: center;
+  margin:auto auto;
+  background-color: rgba(158, 158, 158, 0.7);
+  border-radius: 10%;
+}
+
+.Card-weather button{
+  margin: 10px;
+  background-color: #548CFF;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 10%;
+}
+.Card-weather button:hover{
+  border: solid 3px #4681f7;
+  box-shadow: 3px 3px 3px rgb(7, 7, 7);
+}
+
+.boxHumidity,
+.boxWind{
+  text-align: center;
+  width: 200px;
+  height: 25px;
+  border: 3px solid grey;
+  margin:10px auto;
+  background-color: #548CFF;
+  border-radius: 10%;
+  border: none;
+}
+
+.boxHumidity p{
+  align-items: center;
+  text-align: center;
+  margin-bottom: 1000px;
+  position: relative;
+}
+
+
+
+.Card-weather b{
+  color: #7900FF;
+}
+
+.Card-weather img{
+  position: relative;
+  object-position: center;
+  height: 100px;
+  padding: 0;
+}
+
+
+
